@@ -1,13 +1,13 @@
 ## PROJECT IDENTITY
 
 Project title:
-EcoRoute AI � AI/ML-Based Sustainable Urban Mobility Decision Support
+EcoRoute AI � AI/ML-Based Sustainable Urban Mobility Decision Support
 
 Primary focus:
 Data Science + Machine Learning + Sustainability
 
 Primary SDG:
-SDG 11 � Sustainable Cities and Communities
+SDG 11 � Sustainable Cities and Communities
 
 # EcoRoute AI
 
@@ -40,25 +40,39 @@ Urban commuters often prioritize shortest distance or travel time, while traffic
 The implemented pipeline:
 
 ```text
-Real Traffic Data
-    ↓
-Data Cleaning
-    ↓
-Feature Engineering
-    ↓
-Traffic Speed Prediction
-    ↓
-Travel Time Estimation
-    ↓
-CO₂ Estimation
-    ↓
-Normalization
-    ↓
-Multi-Objective Scoring
-    ↓
-Priority-Based Segment Recommendation
-    ↓
-Streamlit Decision Support Dashboard
+## Project Pipeline
+
+[1] REAL TRAFFIC DATA
+        |
+        v
+[2] DATA VALIDATION
+        |
+        v
+[3] DATA CLEANING
+        |
+        v
+[4] FEATURE ENGINEERING
+        |
+        v
+[5] TRAFFIC SPEED PREDICTION
+        |
+        v
+[6] TRAVEL TIME ESTIMATION
+        |
+        v
+[7] CO2 EMISSION ESTIMATION
+        |
+        v
+[8] NORMALIZATION
+        |
+        v
+[9] MULTI-OBJECTIVE SCORING
+        |
+        v
+[10] PRIORITY-BASED SEGMENT RECOMMENDATION
+        |
+        v
+[11] STREAMLIT DECISION-SUPPORT DASHBOARD
 ```
 
 ## 4. DATA SOURCE
@@ -202,36 +216,39 @@ The dashboard in `app/app.py` includes the following confirmed features:
 ## 11. PROJECT STRUCTURE
 
 ```
+## Project Structure
+
 EcoRoute-AI/
-├── app/
-│   └── app.py
-│
-├── data/
-│   └── processed/
-│       └── ecoroute_ml_dataset.csv
-│
-├── docs/
-│   ├── data_acquisition.md
-│   ├── data_investigation.md
-│   ├── emission_methodology.md
-│   ├── ml_results.md
-│   └── sustainability_optimization.md
-│
-├── models/
-│   └── traffic_speed_model.pkl
-│
-├── notebooks/
-│   ├── 01_data_understanding.ipynb
-│   └── 04_traffic_prediction.ipynb
-│
-├── reports/
-│   ├── figures/
-│   └── results/
-│       └── ecoroute_segment_scores.csv
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+|
++-- app/
+|   +-- app.py
+|
++-- data/
+|   +-- processed/
+|       +-- ecoroute_ml_dataset.csv
+|
++-- docs/
+|   +-- data_acquisition.md
+|   +-- data_investigation.md
+|   +-- emission_methodology.md
+|   +-- ml_results.md
+|   +-- sustainability_optimization.md
+|
++-- models/
+|   +-- traffic_speed_model.pkl
+|
++-- notebooks/
+|   +-- 01_data_understanding.ipynb
+|   +-- 04_traffic_prediction.ipynb
+|
++-- reports/
+|   +-- figures/
+|   +-- results/
+|       +-- ecoroute_segment_scores.csv
+|
++-- requirements.txt
++-- README.md
++-- .gitignore
 ```
 
 ## 12. HOW TO RUN
