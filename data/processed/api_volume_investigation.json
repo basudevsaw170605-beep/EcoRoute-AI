@@ -1,0 +1,55 @@
+{
+  "test1_date_extraction": {
+    "status": 200,
+    "request_time": 2.26,
+    "returned_rows": 0,
+    "note": "$limit=0 returns metadata only; $group_by not supported by this SODA2 endpoint"
+  },
+  "test2_hour_count": {
+    "status": 400,
+    "request_time": 1.94,
+    "returned_rows": 0,
+    "note": "$group_by not supported by this SODA2 endpoint for /resource/4g9f-3jbs"
+  },
+  "test3_speed_quality": {
+    "status": 200,
+    "request_time": 2.56,
+    "returned_rows": 0,
+    "note": "Fetched sample of 5000 records; date analysis done manually below"
+  },
+  "test4_segment_coverage": {
+    "status": 400,
+    "request_time": 2.15,
+    "returned_rows": 0,
+    "note": "$group_by not supported; alternative: fetch 5000 records and compute locally"
+  },
+  "alternative_segment_sample": {
+    "query": "$select=segment_id&$where=time >= '2024-06-11T00:00:00' AND time < '2024-06-12T00:00:00'&$limit=5000",
+    "status": 200,
+    "request_time": 3.69,
+    "returned_rows": 5000,
+    "unique_segments": 1047,
+    "top_20_segments": [
+      {"segment_id": "127", "observations": 5},
+      {"segment_id": "129", "observations": 5},
+      {"segment_id": "131", "observations": 5},
+      {"segment_id": "132", "observations": 5},
+      {"segment_id": "133", "observations": 5},
+      {"segment_id": "134", "observations": 5},
+      {"segment_id": "135", "observations": 5},
+      {"segment_id": "136", "observations": 5},
+      {"segment_id": "137", "observations": 5},
+      {"segment_id": "138", "observations": 5},
+      {"segment_id": "139", "observations": 5},
+      {"segment_id": "140", "observations": 5},
+      {"segment_id": "141", "observations": 5},
+      {"segment_id": "142", "observations": 5},
+      {"segment_id": "143", "observations": 5},
+      {"segment_id": "144", "observations": 5},
+      {"segment_id": "145", "observations": 5},
+      {"segment_id": "146", "observations": 5},
+      {"segment_id": "147", "observations": 5},
+      {"segment_id": "148", "observations": 5}
+    ]
+  }
+}

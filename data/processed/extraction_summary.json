@@ -1,0 +1,19 @@
+{
+  "dates_requested": [
+    "2024-06-11",
+    "2024-06-12",
+    "2024-06-13",
+    "2024-06-15",
+    "2024-06-16",
+    "2024-06-17"
+  ],
+  "api_rows_retrieved": 1200,
+  "rows_removed_speed_minus_1": 580,
+  "rows_removed_invalid_length": 0,
+  "duplicates_removed": 0,
+  "final_row_count": 620,
+  "unique_segments": 191,
+  "min_timestamp": "2024-06-11T13:01:03.000",
+  "max_timestamp": "2024-06-17T00:01:05.000",
+  "average_invalid_percentage": 49.5
+}

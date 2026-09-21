@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2024-06-11",
+    "total_query_status": 200,
+    "total_records_local": 200,
+    "invalid_local": 50,
+    "valid_local": 150,
+    "invalid_pct": 25.0
+  },
+  {
+    "date": "2024-06-12",
+    "total_query_status": 200,
+    "total_records_local": 200,
+    "invalid_local": 103,
+    "valid_local": 97,
+    "invalid_pct": 51.5
+  },
+  {
+    "date": "2024-06-13",
+    "total_query_status": 200,
+    "total_records_local": 200,
+    "invalid_local": 105,
+    "valid_local": 95,
+    "invalid_pct": 52.5
+  },
+  {
+    "date": "2024-06-14",
+    "total_query_status": 200,
+    "total_records_local": 200,
+    "invalid_local": 113,
+    "valid_local": 87,
+    "invalid_pct": 56.49999999999999
+  },
+  {
+    "date": "2024-06-15",
+    "total_query_status": 200,
+    "total_records_local": 200,
+    "invalid_local": 106,
+    "valid_local": 94,
+    "invalid_pct": 53.0
+  },
+  {
+    "date": "2024-06-16",
+    "total_query_status": 200,
+    "total_records_local": 200,
+    "invalid_local": 113,
+    "valid_local": 87,
+    "invalid_pct": 56.49999999999999
+  },
+  {
+    "date": "2024-06-17",
+    "total_query_status": 200,
+    "total_records_local": 200,
+    "invalid_local": 103,
+    "valid_local": 97,
+    "invalid_pct": 51.5
+  }
+]
